@@ -43,7 +43,7 @@ All the procedure can be seen in the Jupyther notebook attached.
 
 ---
 
-##  Machine Learning Approach to Predict Credit Risk
+##  Supervised Machine Learning Approach to Predict Credit Risk
 
 After all the cleaning, some machine learning methods from `scikit-learn` were employed to try to predict a real scenario:
 - LogisticRegression
@@ -90,4 +90,8 @@ The High-Risk = 1 represents only 1,7% of the total data so that their predictio
 | KNeighborsClassifier           | 0.9831    | 0.9775                | 0.9791         | 0.9831            | 4852          |
 
 
-Logistic Regression achieves decent precision on majority classes but struggles with recall, meaning it misses a significant portion of minority class samples. This is reflected in its low F1-score. Decision Trees improve overall accuracy and F1 compared to Logistic Regression, but their recall is still moderate. They better capture minority classes than Logistic Regression but may overfit to majority classes. Random Forest shows strong performance across all weighted metrics, balancing precision and recall. It handles class imbalance better than single trees due to ensemble averaging. Gradient Boosting achieves the highest overall accuracy and weighted F1, excelling at predicting majority class samples. However, macro-average recall is lower, indicating some minority classes may still be underpredicted. KNN also achieves excellent overall performance and slightly higher weighted F1 than Gradient Boosting. Its performance is stable across classes but may be sensitive to the distribution of the minority class in high-dimensional spaces.
+- LogisticRegression achieves decent precision on majority classes but struggles with recall, meaning it misses a significant portion of minority class samples. This is reflected in its low F1-score. 
+- DecisionTreeClassifier improve overall accuracy and F1 compared to Logistic Regression, but their recall is still moderate. They better capture minority classes than Logistic Regression but may overfit to majority classes. 
+- RandomForestClassifier shows strong performance across all weighted metrics, balancing precision and recall. It handles class imbalance better than single trees due to ensemble averaging. 
+- GradientBoostingClassifier achieves the highest overall accuracy and weighted F1, excelling at predicting majority class samples. However, macro-average recall is lower, indicating some minority classes may still be underpredicted. 
+- KNeighborsClassifier  also achieves excellent overall performance and slightly higher weighted F1 than Gradient Boosting. Its performance is stable across classes but may be sensitive to the distribution of the minority class in high-dimensional spaces.
