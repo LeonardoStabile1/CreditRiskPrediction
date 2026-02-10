@@ -28,7 +28,7 @@ The dataset contains **29165 observations** and **20 features**, combining demog
 
 ---
 
-## ✅ EDA Conclusions
+## EDA Conclusions
 
 - The target variable is highly imbalanced, only 1.7% of the total data is flagged as a high-risk, while 98,3% of the total data is not a high-risk situation. This represents a overall big challenge to ML models since there is a strong motivation to keep all the classifications as a ''not a high risk'' prediction;
 - No single feature strongly predicts risk in isolation, such that all the predictive power is expected to comes from **feature interactions**.
