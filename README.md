@@ -30,6 +30,8 @@ The dataset contains **29165 observations** and **20 features**, combining demog
 
 ## EDA Conclusions
 
+For a detailed breakdown of the data exploration phase and key insights, please refer to the [EDA file](EDA.md).
+
 - The target variable is highly imbalanced, only 1.7% of the total data is flagged as a high-risk, while 98,3% of the total data is not a high-risk situation. This represents a overall big challenge to ML models since there is a strong motivation to keep all the classifications as a ''not a high risk'' prediction;
 - No single feature strongly predicts risk in isolation, such that all the predictive power is expected to comes from **feature interactions**.
 
@@ -39,7 +41,7 @@ The dataset contains **29165 observations** and **20 features**, combining demog
 - The `Age`, `Employment length` and `Account age` needed to be corrected and carefully studied in order to identify some outliers that represented wrong data.
 - Some minor changes on `Has a Car` and `Has a property`.
 
-All the procedure can be seen in the Jupyther notebook attached.
+All the procedure can be seen in the [Jupyter notebook](Credit%20Card%20Risk.ipynb) attached.
 
 ---
 
