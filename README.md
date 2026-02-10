@@ -45,7 +45,7 @@ All the procedure can be seen in the [Jupyter notebook](Credit%20Card%20Risk.ipy
 
 ---
 
-##  Supervised Machine Learning Approach to Predict Credit Risk
+#  Supervised Machine Learning Approach to Predict Credit Risk
 
 After all the cleaning, some machine learning methods from `scikit-learn` were employed to try to predict a real scenario:
 - LogisticRegression
